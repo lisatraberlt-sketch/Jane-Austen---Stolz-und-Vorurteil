@@ -1,124 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">Stolz und Vorurteil</title>
-        <author>
-          <persName>
-            <surname>Austen</surname>
-            <forename>Jane</forename>
-          </persName>
-        </author>
-        <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
-          <persName>
-            <surname>Gutenberg</surname>
-            <forename>Projekt</forename>
-          </persName>
-          <resp>Bereitstellung der Texttranskription</resp>
-          <note type="remarkRevisionDTA">
-            Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.
-          </note>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Stolz und Vorurteil</title>
+      <author>
+        <persName>
+          <surname>Austen</surname>
+          <forename>Jane</forename>
+        </persName>
+      </author>
+      <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+        <persName>
+          <surname>Gutenberg</surname>
+          <forename>Projekt</forename>
+        </persName>
+        <resp>
+          <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+          <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
           <ref target="https://projekt-gutenberg.org/authors/jane-austen/books/stolz-und-vorurtheil/"/>
           <date type="importDTA">2026-03-15T17:18:00Z</date>
-        </respStmt>
-        <respStmt>
-          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
-          <resp>Langfristige Bereitstellung der DTA-Ausgabe</resp>
+        </resp>
+      </respStmt>
+      <respStmt>
+        <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+        <resp>
+          <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
           <ref target="https://www.bbaw.de"/>
-        </respStmt>
-      </titleStmt>
-      <editionStmt>
-        <edition>Vollständig digitalisierte Ausgabe.</edition>
-      </editionStmt>
-      <extent>
-        <measure type="images"/>
-        <measure type="tokens"/>
-        <measure type="types"/>
-        <measure type="characters"/>
-      </extent>
-      <publicationStmt>
-        <publisher xml:id="DTACorpusPublisher">
-          <email>dta@bbaw.de</email>
-          <orgName role="project">Deutsches Textarchiv</orgName>
-          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
-          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
-          <address>
-            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
-            <country>Germany</country>
-          </address>
-        </publisher>
-        <pubPlace>Berlin</pubPlace>
-        <date type="publication">2026-03-15T17:18:00Z</date>
-        <availability xml:id="availability-textsource-1" corresp="#textsource-1" status="unknown">
-          <licence/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="M"/>
-        <biblFull>
-          <titleStmt>
-            <title level="m" type="main">Stolz und Vorurteil</title>
-            <author>
-              <persName>
-                <surname>Austen</surname>
-                <forename>Jane</forename>
-              </persName>
-            </author>
-            <editor role="translator">
-              <persName>
-                <surname>Marezoll</surname>
-                <forename>Louise</forename>
-              </persName>
-            </editor>
-          </titleStmt>
-          <editionStmt>
-            <edition n="1"/>
-          </editionStmt>
-          <publicationStmt>
-            <publisher>Unbekannt</publisher>
+        </resp>
+      </respStmt>
+    </titleStmt>
+    <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+    <extent>
+      <measure type="images"></measure>
+      <measure type="tokens"></measure>
+      <measure type="types"></measure>
+      <measure type="characters"></measure>
+    </extent>
+    <publicationStmt>
+      <publisher xml:id="DTACorpusPublisher">
+        <email>dta@bbaw.de</email>
+        <orgName role="project">Deutsches Textarchiv</orgName>
+        <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+        <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+        <address>
+          <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+          <country>Germany</country>
+        </address>
+      </publisher>
+      <pubPlace>Berlin</pubPlace>
+      <date type="publication">2026-03-15T17:18:00Z</date>
+      <availability xml:id="availability-textsource-1" corresp="#textsource-1" status="unknown">
+        <licence/>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="M"></bibl>
+      <biblFull>
+        <titleStmt>
+        <title level="m" type="main">Stolz und Vorurteil</title>
+          <author>
+            <persName>
+              <surname>Austen</surname>
+              <forename>Jane</forename>
+            </persName>
+          </author>
+          <editor role="translator">
+            <persName>
+              <surname>Marezoll</surname>
+              <forename>Louise</forename>
+            </persName>
+          </editor>
+        </titleStmt>
+        <editionStmt>
+          <edition n="1"/>
+        </editionStmt>
+        <publicationStmt>
+          <publisher/>
             <pubPlace>Heidenheim an der Brenz</pubPlace>
-            <date type="publication">1830</date>
-          </publicationStmt>
-        </biblFull>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <editorialDecl>
-        <p>
-          Bogensignaturen: keine Angabe;
-          Druckfehler: keine Angabe;
-          fremdsprachliches Material: keine Angabe;
-          Geminations-/Abkürzungsstriche: keine Angabe;
-          Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
-          I/J in Fraktur: keine Angabe;
-          i/j in Fraktur: keine Angabe;
-          Kolumnentitel: keine Angabe;
-          Kustoden: keine Angabe;
-          langes s (ſ): keine Angabe;
-          Normalisierungen: keine Angabe;
-          rundes r (&#xa75b;): keine Angabe;
-          Seitenumbrüche markiert: keine Angabe;
-          Silbentrennung: keine Angabe;
-          u/v bzw. U/V: keine Angabe;
-          Vokale mit übergest. e: keine Angabe;
-          Vollständigkeit: keine Angabe;
-          Zeichensetzung: keine Angabe;
-          Zeilenumbrüche markiert: keine Angabe;
-        </p>
-      </editorialDecl>
-    </encodingDesc>
-    <profileDesc>
-      <textClass/>
-    </profileDesc>
-  </teiHeader>
-  <text>
-    <body>
+          <date type="publication">1830</date>
+        </publicationStmt>
+      </biblFull>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <editorialDecl>
       <p>
-        Herrn Bennets ganzes Vermögen bestand in einer jährlichen Einnahme von zweitausend Pfund, den Ertrag eines Guts, welches unglücklicher Weise für seine fünf Tochter, in Ermangelung männlicher Erben, nach seinem Tode an einen entfernten Verwandten fiel; und der Mutter Vermögen, für ihre Verhältnisse zwar nicht unbedeutend, war jedoch nicht hinreichend, den Mangel des Seinigen zu ersetzen. Ihr Vater, ein Advokat in Meryton, hatte ihr viertausend Pfund hinterlassen; ihre Schwester, an einen Herrn Philips verheirathet, der früher Schreiber bei ihrem Vater gewesen, späterhin in sein Geschäfft eingetreten war, lebte nun daselbst und ihr einziger Bruder hatte sich als Kaufmann in London etablirt.
+          Herrn Bennets ganzes Vermögen bestand in einer jährlichen Einnahme von zweitausend Pfund, den Ertrag eines Guts, welches unglücklicher Weise für seine fünf Tochter, in Ermangelung männlicher Erben, nach seinem Tode an einen entfernten Verwandten fiel; und der Mutter Vermögen, für ihre Verhältnisse zwar nicht unbedeutend, war jedoch nicht hinreichend, den Mangel des Seinigen zu ersetzen. Ihr Vater, ein Advokat in Meryton, hatte ihr viertausend Pfund hinterlassen; ihre Schwester, an einen Herrn Philips verheirathet, der früher Schreiber bei ihrem Vater gewesen, späterhin in sein Geschäfft eingetreten war, lebte nun daselbst und ihr einziger Bruder hatte sich als Kaufmann in London etablirt,
 
-        Das Dorf Longbourn war nur eine Meile von Meryton entfernt, und diese geringe Distanz veranlaßte die jungen Damen, wenigstens drei bis vier Mal die Woche einen Besuch bei ihrer Tante Philips, und in einem ihrem Hause gegenüberliegenden Kaufladen, abzustatten.
+Das Dorf Longbourn war nur eine Meile von Meryton entfernt, und diese geringe Distanz veranlaßte die jungen Damen, wenigstens drei bis vier Mal die Woche einen Besuch bei ihrer Tante Philips, und in einem ihrem Hause gegenüberliegenden Kaufladen, abzustatten.
       </p>
-    </body>
-  </text>
-</TEI>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+    <textClass>
+    </textClass>
+  </profileDesc>
+</teiHeader>
